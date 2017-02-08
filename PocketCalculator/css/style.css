@@ -1,0 +1,48 @@
+button{
+    /* margin-top: 15px; */
+	padding:5px;
+	border-radius: 4px;
+	margin: 26px 20px 2px 0px;
+	background:rgba(113, 131, 140, 0.94);
+	color:#fff;
+}
+
+.grandPDiv{
+	background:rgba(113, 131, 140, 0.94);
+	height: 108px;
+    width: 222px;
+    margin: 28px 61px 37px 379px;
+	border-radius:12px 12px 0px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.numberPad{
+	background:#eef9f9;
+	position:relative;
+	top:108px;
+	height:266px;
+	border-radius:0px 0px 12px 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.toggled{
+	visibility:visible;
+}
+
+#parentDiv{
+	background:#e5e6db;
+	position: absolute;
+	margin: 23px 0px 1px 18px;
+    left: 38%;
+	padding: 18px;
+    width: 150px;
+	height:20px;
+    text-align: center;
+	/* border:5px solid #636a6d; */
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+}
+#on{
+	background:#00ff45;
+}
+#offC{
+	background:red;
+}
